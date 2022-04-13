@@ -2,4 +2,4 @@
 
 Test
 
-日本語
+This is another line of texts
