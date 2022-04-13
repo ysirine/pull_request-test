@@ -1,0 +1,13 @@
+name: simple try
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Run my funny commands
+      run: |
+        pwd
+        ls
+        echo abcdefg
+        uname -a
